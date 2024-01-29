@@ -1,0 +1,92 @@
+/* BY ID*/
+#carMakes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+
+    font-weight: bold;
+    font-size: medium;
+
+    border-color: none;
+    border: none;
+    border-radius: 1em;
+
+    padding: 1em;
+    margin-left: 23em;
+
+    display: none;
+    position: absolute;
+    margin-top: 0.3em;
+
+    display: none;
+}
+
+#carMakes:hover{
+    background-color: blue;
+    color: white;
+}
+
+#btnMakes:hover + #carMakes {
+    display: block; 
+}
+
+#container{
+    background-color: beige;
+    padding: 1em;
+    padding-bottom: 5em;
+    width: 30%;
+
+    border-radius: 1em;
+}
+
+/* BY TAG*/
+table, th, td{
+    border: solid;
+    border-color: white;
+    border-collapse: collapse;
+
+    margin-top: 1em;
+    margin-left: 1.5em;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(even) 
+{
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(1) {
+    color: darkblue;
+    font-weight: bold;
+}
+
+td{
+    padding: 1em;
+}
+
+button{
+    background-color: lightblue;
+
+    margin-left: 1.7em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    padding: 1em;
+
+    border-color: none;
+    border: none;
+    border-radius: 1em;
+
+    font-weight: bold;
+    font-size: medium;
+
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
